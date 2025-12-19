@@ -1,15 +1,27 @@
+# Gradle build folders
+.gradle/
+build/
+
+# Local configuration file (contains local paths, should not be shared)
+local.properties
+
+# IntelliJ/Android Studio files
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS-specific files
 .DS_Store
-/build
-/captures
+
+# Native builds
 .externalNativeBuild
 .cxx
-local.properties
+
+# Screenshots or captures
+/captures
+
